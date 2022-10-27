@@ -220,7 +220,7 @@ print(cok_parametre(3,5))
 def benim_fonskiyonum(n):
     return lambda a:a *n
 
-katini_al = benim_fonskiyonum(2)        #BUNUN KLLANIMINI ÖĞREN!
+katini_al = benim_fonskiyonum(2)        #BUNUN KLLANIMINI ÖĞREN!!
 print(katini_al(5))
 
 katini_al = benim_fonskiyonum(5)
