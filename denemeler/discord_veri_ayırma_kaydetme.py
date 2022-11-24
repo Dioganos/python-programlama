@@ -4,7 +4,6 @@ import os
 PATH = "./messages/"
 if not os.path.exists("yourData"):
     os.mkdir("yourData")
-    print("olustu")
 
 for file in os.listdir(PATH):
     d = os.path.join(PATH,file)
